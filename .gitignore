@@ -1,0 +1,27 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Generated logs and data (optional)
+# latency_log.csv
+# mqtt_latency_log.csv
+# preprocessed_data.csv
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
